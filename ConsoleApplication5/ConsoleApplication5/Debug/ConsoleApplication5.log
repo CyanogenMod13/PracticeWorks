@@ -1,0 +1,9 @@
+﻿  ConsoleApplication5.cpp
+C:\Users\asusX\source\repos\ConsoleApplication5\ConsoleApplication5\Task1.h(17,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\asusX\source\repos\ConsoleApplication5\ConsoleApplication5\Task1.h(20,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\asusX\source\repos\ConsoleApplication5\ConsoleApplication5\Task1.h(34,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\asusX\source\repos\ConsoleApplication5\ConsoleApplication5\Task1.h(36,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\asusX\source\repos\ConsoleApplication5\ConsoleApplication5\Task1.h(39,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\asusX\source\repos\ConsoleApplication5\ConsoleApplication5\Task1.h(46,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\asusX\source\repos\ConsoleApplication5\ConsoleApplication5\Task1.h(48,22): warning C4018: <: несоответствие типов со знаком и без знака
+  ConsoleApplication5.vcxproj -> C:\Users\asusX\source\repos\ConsoleApplication5\Debug\ConsoleApplication5.exe
