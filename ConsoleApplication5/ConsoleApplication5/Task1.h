@@ -54,10 +54,25 @@ void task1()
 	}
 
 	std::cout << "2. " << std::endl;
-	long min = matrix[0][M - 1];
+	long min_val = matrix[0][M - 1];
 	for (int i = 1; i < M; i++)
+		min_val = min(min_val, matrix[i][(1 - i & 1) * (M - 1)]);
+	long sum = 0;
+	for (int i = 0; i < M; i++)
 	{
-		min = min(min, matrix[i][])
+		sum += matrix[i][M - 1 - i];
+		matrix[i][i] = min_val;
+	}
+	print(matrix, M, M);
+	std::cout << "Sum of elements: " << sum << std::endl;
+	
+	std::cout << "3. " << std::endl;
+	long sum_of_cols[M] = { 0 };
+	for (int i = 0; i < M; i++)
+	{
+		for (int j = 0; j < M; j++)
+			sum_of_cols[i] += matrix[j][i];
+		std::cout << sum_of_cols[i] << " ";
 	}
 }
 

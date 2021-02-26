@@ -26,6 +26,14 @@ inline void print(long** arr, long N, long M)
 	}
 }
 
+inline void print(long* arr, long N)
+{
+	for (int i = 0; i < N; i++)
+	{
+		std::cout << arr[i] << " ";
+	}
+}
+
 inline void swap(long& a, long& b)
 {
 	long c = b;
